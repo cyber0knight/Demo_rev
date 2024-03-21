@@ -4362,11 +4362,11 @@ textarea.w-input, textarea.w-select {
   }
 
   .heading-13 {
-    font-size: 45px;
+    font-size: 35px;
   }
 
   .paragraph-4 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
   }
 
@@ -4390,7 +4390,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .countdown.icons.numbers.feature-content {
-    width: 30%;
+    width: 50%;
     background-image: none;
     justify-content: center;
     align-self: center;
@@ -4410,12 +4410,17 @@ textarea.w-input, textarea.w-select {
     width: 30%;
     background-image: none;
     flex: none;
+    align-self: center;
     align-items: center;
     padding-top: 10px;
   }
 
   .feature-content.icons.numbers.num12 {
-    width: 30%;
+    width: 50%;
+  }
+
+  .feature-content.icons.numbers.num3 {
+    margin-left: 196px;
   }
 
   .container-11 {
@@ -4801,6 +4806,7 @@ textarea.w-input, textarea.w-select {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0;
     justify-content: center;
+    margin-bottom: 50px;
   }
 
   .sponser-img {
@@ -4832,13 +4838,15 @@ textarea.w-input, textarea.w-select {
 
   .heading-13 {
     margin-top: 20px;
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .paragraph-4 {
+    direction: ltr;
+    text-align: left;
     white-space: break-spaces;
     margin-bottom: 42px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
   }
 
@@ -4897,6 +4905,10 @@ textarea.w-input, textarea.w-select {
   .feature-content.icons.numbers.num12 {
     width: 50%;
     margin-left: 3px;
+  }
+
+  .feature-content.icons.numbers.num3 {
+    margin-left: 0;
   }
 
   .number {
