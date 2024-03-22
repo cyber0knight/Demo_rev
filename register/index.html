@@ -26,7 +26,7 @@ margin-left: 140px;
     height: 100%;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 775px) {
   .checkbox-container {
   margin-right: 70px;
   margin-left: 70px;
@@ -86,7 +86,7 @@ margin-left: 140px;
                                 <div class="row row-space">
                                     <div class="col-2">
                                         <div class="input-group-desc">
-                                            <input class="input--style-5" type="text" placeholder="First Name" name="first_name" required>
+                                            <input class="input--style-5" type="text" placeholder="First Name" name="first_name" required autofocus>
                                         </div>
                                     </div>
                                     <div class="col-2">
@@ -222,7 +222,7 @@ margin-left: 140px;
                             <div class="name">Enrollment <br> Number</div>
                             <div class="value">
                                 <div class="input-group">
-                                    <input class="input--style-5" type="text" name="enrollment_no" placeholder="Enter Your Enrollment Number" value="NULL" required>
+                                    <input class="input--style-5" type="text" name="enrollment_no" placeholder="Enter Your Enrollment Number" required>
                                 </div>
                             </div>
                         </div>
@@ -234,11 +234,20 @@ margin-left: 140px;
                                 <div class="input-group">
                                     <div class="rs-select2 js-select-simple select--no--search">
                                         <select name="selected_events" multiple required>
-                                            <option>Event 1</option>
-                                            <option>Event 2</option>
-                                            <option>Event 3</option>
-                                            <option>Event 4</option>
-                                            <option>Event 5</option>
+                                            <option>Brain Dead</option>
+                                            <option>Build With Us</option>
+                                            <option>Chess</option>
+                                            <option>Code Storm</option>
+                                            <option>Fifa</option>
+                                            <option>Feature Title</option>
+                                            <option>Ganitam</option>
+                                            <option>Root Access</option>
+                                            <option>Murder Mystery</option>
+                                            <option>PUBG</option>
+                                            <option>Valorant</option>
+                                            <option>Techno Quiz</option>
+
+
 
                                         </select>
                                         <div class="select-dropdown"></div>
@@ -288,7 +297,7 @@ margin-left: 140px;
 
     <!-- Script to send the form data -->
     <script>
-    let url = 'https://script.google.com/macros/s/AKfycbwfvAoXyI3S357s3SMdAQcJa2yH_ScZGdmFjuu2c59rtqOj3blm4hUcqs7XPGZU7CI/exec';
+    let url = 'https://script.google.com/macros/s/AKfycbwtS-dKkGeR6ihR1Ct_00LyC8WpKQXj84TsDtzWLtY8zqo6q0T7av-qqG0dpbQuQXUI6Q/exec';
     let form = document.querySelector('#form');
     let submitted = false;
     form.addEventListener("submit", (e) => {
