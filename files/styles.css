@@ -2482,7 +2482,8 @@ textarea.w-input, textarea.w-select {
 }
 
 .nav-logo-wrap {
-  flex: none;
+  display: flex;
+  align-items: center;
 }
 
 .nav {
@@ -3895,6 +3896,7 @@ textarea.w-input, textarea.w-select {
 
   .nav-link-2 {
     padding-top: 20px;
+    margin-left: 25px;
   }
 
   .nav-link-2:hover {
